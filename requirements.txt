@@ -1,0 +1,12 @@
+streamlit
+pandas
+yfinance
+requests
+beautifulsoup4
+newspaper3k
+lxml_html_clean
+plotly
+transformers
+torch
+torchaudio
+torchvision
