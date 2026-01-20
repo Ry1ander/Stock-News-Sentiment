@@ -10,7 +10,7 @@ import plotly.express as px
 st.set_page_config(page_title="Market Watchdog")
 
 # 2. The Title
-st.title("Market Sentiment Watcher")
+st.title("Stock News Sentiment Analyzer")
 st.markdown("Analyze the latest news for any stock ticker using **FinBERT**.")
 
 # 3. Sidebar
@@ -168,4 +168,5 @@ if analyze_btn:
                 st.info(help_text) 
                 
                 # Then show the dataframe
+
                 st.dataframe(news_df[['Headline', 'Full_Text']].head(5))
